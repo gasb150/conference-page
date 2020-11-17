@@ -1,3 +1,7 @@
+p{
+  line-height: 2em;
+}
+
 .flex{
   display: flex;
 }
@@ -31,12 +35,20 @@
 }
 
 
-/*.m-4{
+.m-4{
   margin: 1rem;
-}*/
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
+.py-5{
+  padding: 2rem 0;
+}
 
 
-
+/*COLORS*/
 
 .cl-dk{
   color: #272a31;
@@ -61,9 +73,27 @@
   background-color: #d3d3d3;
 }
 
+.cl-wt{
+  color: white;
+}
+
+
 .tx-center{
   text-align: center;
 }
+
+.it-center{
+  align-items: center;
+}
+
+.jt-center{
+ justify-content: center;
+}
+
+.self-center{
+  align-self: center;
+}
+
 .fa-bars{
   font-size: 40px;
   margin: 0.5rem 1rem;
@@ -92,4 +122,24 @@ h1{
 
 .title-paragraph{
   border: #d3d3d3 2px solid;
+}
+
+.fl-dc-col{
+ flex-direction: column; 
+}
+
+.main-prg-option{
+  border: white 1px solid;
+  margin-top: 0;
+}
+
+.main-prg-option .iconify{
+  width: 90px;
+  height: 90px;
+}
+
+.main-button{
+  width: 40%;
+  padding: 1.5rem 3rem;
+  border: none;
 }
