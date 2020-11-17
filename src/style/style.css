@@ -1,3 +1,40 @@
+.flex{
+  display: flex;
+}
+
+/* .m-1{
+  margin: .25rem;
+} */
+
+/* .m-2{
+  margin: .5rem;
+} */
+
+.m-3{
+  margin: .75rem;
+}
+
+.ml-3{
+  margin-left: .75rem;
+}
+
+.mr-3{
+  margin-right: .75rem;
+}
+
+.mb-3{
+  margin-bottom: .75rem;
+}
+
+.mt-3{
+  margin-top: .75rem;
+}
+
+
+/*.m-4{
+  margin: 1rem;
+}*/
+
 .cl-dk{
   color: #272a31;
 }
@@ -21,8 +58,29 @@
   background-color: #d3d3d3;
 }
 
+
 .fa-bars{
   font-size: 40px;
-  margin: 10px 20px;
+  margin: 0.5rem 1rem;
+}
+
+.title-section{
+  margin:0 1rem;
+}
+
+.t-light-reg{
+  font-family: 'cocogoose_light_regular'
+}
+
+.h1-goose{
+  font-family: 'cocogoose_regular';
+  font-size: 40px;
+}
+
+.p-lato{font-family: 'Lato', sans-serif;
+}
+
+.year{
+  font-size: 40px;
 }
 
