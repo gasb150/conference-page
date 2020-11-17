@@ -1,0 +1,31 @@
+.cl-dk{
+  color: #272a31;
+}
+.bg-dk{
+  background-color: #272a31;
+}
+
+.cl-og{
+  color: #ec5242;
+}
+
+.bg-og{
+  background-color: #ec5242;
+}
+
+.cl-gr{
+  color: #d3d3d3;
+}
+
+.bg-gr{
+  background-color: #d3d3d3;
+}
+
+
+h1{
+  font-family: 'cocogoose_letterpressregular'
+}
+
+h2{
+  font-family: 'cocogoose_light_italic';
+}
