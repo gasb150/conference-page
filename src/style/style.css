@@ -47,6 +47,10 @@ p{
   padding: 2rem 0;
 }
 
+.px-5{
+  padding: 0 2rem;;
+}
+
 
 /*COLORS*/
 
@@ -70,7 +74,9 @@ p{
 }
 
 .bg-gr{
-  background-color: #d3d3d3;
+  background-image: url(/src/img/background.png);
+  background-size: cover;
+  height: auto;
 }
 
 .cl-wt{
@@ -98,13 +104,18 @@ p{
   align-self: center;
 }
 
+.hide,.hide2{
+  display: none;
+}
+
 .fa-bars{
   font-size: 40px;
   margin: 0.5rem 1rem;
 }
 
 .title-section{
-  margin:0 1rem 2rem 1rem;
+  margin:5rem 1rem 2rem 1rem;
+  padding-bottom: 3rem ;
 }
 
 .t-light-reg{
@@ -112,7 +123,12 @@ p{
 }
 
 h1{
-  font-size: clamp(1.5rem, 5.5vw, 20rem)
+  font-size: clamp(1.5rem, 5.5vw, 20rem);
+  margin:0 0 5% 0;
+}
+
+h2{
+  font-size: clamp(1.5rem, 4.5vw, 20rem)
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -136,7 +152,13 @@ p{
  flex-direction: column; 
 }
 
-
+.mark-dowm{
+  background-color: #ec5242;
+  height: 1px;
+  margin-bottom: 10px;
+  width: 3%;
+  align-self: center;
+}
 
 .main-prg-option{
   border: white 1px solid;
@@ -197,3 +219,5 @@ button{
   height: 5vh;
   border: #272a31 1px solid;
 }
+
+/*<a href="https://www.freepik.es/vectores/fondo">Vector de Fondo creado por createvil - www.freepik.es</a>*/

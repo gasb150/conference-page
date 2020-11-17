@@ -1,0 +1,16 @@
+.mark-dowm{
+  width: 2%;
+  align-self: center;
+}
+
+.px-7{
+    padding: 0 5rem;;
+}
+
+.logo{
+  box-sizing: border-box;
+  width: 90%;
+  height: auto;
+  padding: 1% 10%;
+  border: black 1px solid;
+}
