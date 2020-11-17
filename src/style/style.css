@@ -58,7 +58,9 @@
   background-color: #d3d3d3;
 }
 
-
+.tx-center{
+  text-align: center;
+}
 .fa-bars{
   font-size: 40px;
   margin: 0.5rem 1rem;
@@ -69,12 +71,13 @@
 }
 
 .t-light-reg{
-  font-family: 'cocogoose_light_regular'
+  font-family: 'Open Sans', sans-serif;
 }
 
 .h1-goose{
-  font-family: 'cocogoose_regular';
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
+  font-weight: bold;
 }
 
 .p-lato{font-family: 'Lato', sans-serif;
@@ -84,3 +87,6 @@
   font-size: 40px;
 }
 
+.title-paragraph{
+  border: #d3d3d3 2px solid;
+}
