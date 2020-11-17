@@ -108,17 +108,21 @@ p{
 }
 
 h1{
+  font-size: clamp(1.5rem, 5.5vw, 20rem)
+}
+
+h1,h2,h3,h4,h5,h6{
   font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
   font-weight: bold;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(.1rem, 3vw, 1rem)
 }
 
 .p-lato{font-family: 'Lato', sans-serif;
 }
 
-.year{
-  font-size: 40px;
-}
 
 .title-paragraph{
   border: #d3d3d3 2px solid;
@@ -127,6 +131,8 @@ h1{
 .fl-dc-col{
  flex-direction: column; 
 }
+
+
 
 .main-prg-option{
   border: white 1px solid;
@@ -140,6 +146,40 @@ h1{
 
 .main-button{
   width: 40%;
-  padding: 1.5rem 3rem;
+  padding: 5%;
   border: none;
+  font-size: clamp(.1rem, 1vw + .8rem, 1rem)
+}
+
+.conteiner-ft{
+  float: left;
+  max-height: 152px;
+  height: 152px;
+  width: auto;
+}
+
+.back-img-spk{
+  width: 97px;
+  height: 97px;
+ 
+}
+
+.img-spk{
+  position: relative;
+  top: 60px;
+  left: -70px;
+  margin-top: -40px;
+  width: 120px;
+  height: 120px;
+  margin-right: -50px;
+}
+
+.descr-spk{
+  margin-top: 40px;
+}
+
+
+.descr-spk .italic{
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
 }
