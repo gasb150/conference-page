@@ -77,6 +77,10 @@ p{
   color: white;
 }
 
+.bg-wt{
+  background-color: white;
+}
+
 
 .tx-center{
   text-align: center;
@@ -144,10 +148,14 @@ p{
   height: 90px;
 }
 
+button{
+  border: none;
+}
+
 .main-button{
   width: 40%;
   padding: 5%;
-  border: none;
+  
   font-size: clamp(.1rem, 1vw + .8rem, 1rem)
 }
 
@@ -182,4 +190,10 @@ p{
 .descr-spk .italic{
   font-family: 'Lato', sans-serif;
   font-style: italic;
+}
+
+.more{
+  width: 90%;
+  height: 5vh;
+  border: #272a31 1px solid;
 }
