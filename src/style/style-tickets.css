@@ -2,6 +2,11 @@
   display: grid;
 }
 
+.bg-gr{
+background: none;
+background-color: darkgray;
+}
+
 .table-title{
   margin: 5px 5px;
   grid-template-columns: 1fr 2fr 3fr 4fr 1fr;
@@ -20,10 +25,13 @@
   grid-template-columns: repeat(4,1fr);
 }
 
+.w-95{
+  width: 95%;
+}
  .background{
    background-image:url(/src/img/background-tickets.png);
    background-size: cover;
-   width: 95%;
+  
  }
 
  .bordering{
@@ -54,4 +62,22 @@
    display: table-cell;
    width: 50px;
    height: 50px;
+ }
+
+ .submit{
+   width: 25%;
+   height: 50px;
+ }
+
+ .day{
+   height: 30px;
+ }
+
+ .menu{
+   height: 100px;
+ }
+
+ .border{
+   border: darkgray 1px solid;
+   margin-bottom: 10%;
  }
