@@ -3,14 +3,11 @@
 }
 
 .table-title{
-  width: 90%;
+  margin: 5px 5px;
   grid-template-columns: 1fr 2fr 3fr 4fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr 2fr;
 }
 
-.table-body{
-  width: 90%;
- 
-}
 
 .col-2{
  grid-template-columns: repeat(2,1fr);
@@ -18,4 +15,43 @@
 
 .col-3{
   grid-template-columns: repeat(3,1fr);
+ }
+.col-4{
+  grid-template-columns: repeat(4,1fr);
+}
+
+ .background{
+   background-image:url(/src/img/background-tickets.png);
+   background-size: cover;
+   width: 95%;
+ }
+
+ .bordering{
+   width: 75%;
+   border: black 1px solid;
+   border-radius: 15px;
+   margin:30px 0;
+ }
+
+ .tiquets{
+   padding: 0 0 10% 0;
+ }
+
+ .diamond{
+   width: 50px;
+   height: 50px;
+   align-self: center;
+   rotate: 45deg;
+   position: relative;
+   top: -25px;
+   margin-bottom: -25px;
+ }
+
+ .diamond i{
+   rotate: -45deg;
+   text-align: center;
+   vertical-align: middle;
+   display: table-cell;
+   width: 50px;
+   height: 50px;
  }
