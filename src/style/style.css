@@ -92,7 +92,8 @@ a{
 }
 
 .bg-gr{
-  background-image: url(/src/img/background.png);
+  /* background-image: url(/src/img/background.png); */
+ background-color: gray;
   background-size: cover;
   height: auto;
 }
@@ -103,6 +104,14 @@ a{
 
 .bg-wt{
   background-color: white;
+}
+
+.bg-grpt{
+  background-image: url(/src/img/grey-pattern.jpg);
+}
+
+.bg-bkpt{
+  background-image: url(/src/img/black_pattern.png);
 }
 
 .tx-none{
@@ -142,7 +151,7 @@ a{
 }
 
 .title-section{
-  margin:5rem 1rem 2rem 1rem;
+  margin:0 0 2rem 0;
   padding-bottom: 3rem ;
 }
 
@@ -159,7 +168,13 @@ h2{
   font-size: clamp(1.5rem, 4.5vw, 20rem)
 }
 
+h3{
+  font-size: clamp(1rem, 2.5vw, 20rem)
+}
 
+.h4{
+  font-size: clamp(0.7rem, 2vw, 20rem)
+}
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Open Sans', sans-serif;
@@ -175,7 +190,8 @@ p{
 
 
 .title-paragraph{
-  border: #d3d3d3 2px solid;
+  border: #d3d3d3 .4vh solid;
+  max-width: 600px;
 }
 
 .fl-dc-col{
@@ -193,11 +209,14 @@ p{
 .main-prg-option{
   border: white 1px solid;
   margin-top: 0;
+  background-color: rgba(77, 72, 72, 0.212);
 }
 
 .main-prg-option .iconify{
   width: 90px;
   height: 90px;
+  color: white;
+  
 }
 
 button{
@@ -250,7 +269,18 @@ button{
   border: #272a31 1px solid;
 }
 
+.brand-partner{
+  box-sizing: border-box;
+  padding: 50px 20px;
+}
+
+.autor{
+  padding:5% 10%;
+}
+
 /*<a href="https://www.freepik.es/vectores/fondo">Vector de Fondo creado por createvil - www.freepik.es</a>*/
+
+
 
 @media only screen and (min-width: 768px){
   .show{
@@ -283,4 +313,33 @@ button{
     border:#ec5242 .2rem solid;
     height: 40px;
   }
+  .title-container{
+    width: 60%;
+    padding: 7%;
+  }
+  .mark-dowm{
+    margin-top: 15px;
+    width: 5%;
+  }
+  .main-prg{
+   display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 90%;
+    align-self: center;
+    margin-top: 45px;
+  }
+  .main-prg-option{
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .see-whole{
+    border-bottom: grey 1px solid;
+  }
+  .speakers{
+    align-self: center;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
 }
