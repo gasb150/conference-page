@@ -180,7 +180,7 @@ h3{
   font-size: clamp(1rem, 2.5vw, 20rem)
 }
 
-.h4{
+h4, p{
   font-size: clamp(0.7rem, 2vw, 20rem)
 }
 
@@ -292,7 +292,7 @@ button{
 
 @media only screen and (min-width: 768px){
   .show{
-    display: none;
+    display: none !important;
   }
   .hide2{
     display: flex;

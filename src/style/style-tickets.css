@@ -9,17 +9,26 @@ background-color: #F7F7F7;
 
 .table-title{
   margin: 5px 5px;
-  grid-template-columns: 1fr 2fr 3fr 4fr 1fr;
-  grid-template-rows: 1fr 1fr 2fr 2fr;
+  grid-template-rows: 1fr 2fr 3fr 4fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+}
+.table-title > div{
+  border: 1px solid rgb(233, 225, 225);
 }
 
 
 .col-2{
  grid-template-columns: repeat(2,1fr);
 }
+.row-2{
+  grid-template-rows: repeat(2,1fr);
+}
 
 .col-3{
   grid-template-columns: repeat(3,1fr);
+ }
+ .row-3{
+  grid-template-rows: repeat(3,1fr);
  }
 .col-4{
   grid-template-columns: repeat(4,1fr);
@@ -80,4 +89,11 @@ background-color: #F7F7F7;
  .border{
    border: darkgray 1px solid;
    margin-bottom: 10%;
+ }
+ @media only screen and (min-width: 768px){
+ .table-title{
+  margin: 5px 5px;
+  grid-template-columns: 1fr 2fr 3fr 4fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr 2fr;
+}
  }
