@@ -64,20 +64,21 @@ h4{
   margin-top: 7rem;
 }
 
-.about-container{
-  padding: 0 10%;
-}
+
 
 @media only screen and (min-width: 768px){
   .before{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-   
+    
     padding: 0 10%;
   }
   .before-imgs{
     width: 50%;
     margin: 0 1%;
+  }
+  .about-container{
+    padding: 0 5%;
   }
 }

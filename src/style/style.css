@@ -124,6 +124,10 @@ b{
   text-align: center;
 }
 
+.tx-left{
+  text-align: left;
+}
+
 .it-center{
   align-items: center;
 }
@@ -156,6 +160,7 @@ b{
 .title-section{
   margin:0 0 2rem 0;
   padding-bottom: 3rem ;
+  padding:2% 5%;
 }
 
 .t-light-reg{
