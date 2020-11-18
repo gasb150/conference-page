@@ -1,9 +1,16 @@
 p{
   line-height: 2em;
 }
-
+a{
+  text-decoration: none;
+  color: black;
+}
 .flex{
   display: flex;
+}
+
+.w-100{
+  width: 100%;
 }
 
 /* .m-1{
@@ -98,7 +105,9 @@ p{
   background-color: white;
 }
 
-
+.tx-none{
+  text-decoration: none;
+}
 .tx-center{
   text-align: center;
 }
@@ -113,6 +122,10 @@ p{
 
 .jt-around{
   justify-content: space-around;
+}
+
+.jt-between{
+  justify-content: space-between;
 }
 
 .self-center{
@@ -238,3 +251,36 @@ button{
 }
 
 /*<a href="https://www.freepik.es/vectores/fondo">Vector de Fondo creado por createvil - www.freepik.es</a>*/
+
+@media only screen and (min-width: 768px){
+  .show{
+    display: none;
+  }
+  .hide2{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .social-nav{
+    width: 48%;
+    padding: 1% 10%;
+    box-sizing: border-box;
+  }
+  .hide{
+    display: flex;
+  }
+
+  .hide .logo{
+    width: 300px;
+    height: auto;
+    padding: 5px 0;
+    padding-left: 5%;
+  }
+.hide div{
+  padding-right: 10%;
+  padding-left: 30%;
+}
+  .hide button{
+    border:#ec5242 .2rem solid;
+    height: 40px;
+  }
+}
