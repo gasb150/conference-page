@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 .title-paragraph2{
+  height: auto; 
+}
+
+.title-paragraph2 p{
   border: #d3d3d3 .4vh solid;
 }
 
