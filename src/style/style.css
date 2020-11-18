@@ -128,6 +128,15 @@ b{
   text-align: left;
 }
 
+.tx-right{
+  text-align: right;
+}
+
+.bread-crumb{
+  width: 85%;
+  margin-top: 1%;
+}
+
 .it-center{
   align-items: center;
 }
@@ -303,23 +312,32 @@ button{
     padding: 1% 10%;
     box-sizing: border-box;
   }
+  header nav *{
+    padding: 2%;
+  }
+
   .hide{
     display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-around;
+    max-height: 89px;
   }
 
   .hide .logo{
-    width: 300px;
-    height: auto;
+    max-width: 100%;
+    height: 100%;
     padding: 5px 0;
-    padding-left: 5%;
+    padding-left: 1%;
   }
 .hide div{
-  padding-right: 10%;
-  padding-left: 30%;
+  max-width: 570px;
 }
   .hide button{
     border:#ec5242 .2rem solid;
     height: 40px;
+    padding: 0;
+    margin: 10px;
   }
   .title-container{
     width: 60%;

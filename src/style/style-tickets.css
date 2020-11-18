@@ -1,3 +1,6 @@
+h3{
+  padding-top: 6%;
+}
 .grid{
   display: grid;
 }
@@ -44,7 +47,7 @@ background-color: #F7F7F7;
  }
 
  .bordering{
-   width: 75%;
+   width: 90%;
    border: black 1px solid;
    border-radius: 15px;
    margin:30px 0;
@@ -55,13 +58,13 @@ background-color: #F7F7F7;
  }
 
  .diamond{
-   width: 50px;
-   height: 50px;
+   width: 25px;
+   height: 25px;
    align-self: center;
    rotate: 45deg;
    position: relative;
-   top: -25px;
-   margin-bottom: -25px;
+   top: -12.5px;
+  
  }
 
  .diamond i{
@@ -69,8 +72,8 @@ background-color: #F7F7F7;
    text-align: center;
    vertical-align: middle;
    display: table-cell;
-   width: 50px;
-   height: 50px;
+   width: 25px;
+   height: 25px;
  }
 
  .submit{
@@ -79,7 +82,10 @@ background-color: #F7F7F7;
  }
 
  .day{
+   display: flex;
    height: 30px;
+   align-items: center;
+   justify-content: center;
  }
 
  .menu{
@@ -91,9 +97,28 @@ background-color: #F7F7F7;
    margin-bottom: 10%;
  }
  @media only screen and (min-width: 768px){
- .table-title{
+ .bordering{
+   width: 75%;
+ }
+ .w-95{
+  width: 65%;
+}
+  .table-title{
   margin: 5px 5px;
   grid-template-columns: 1fr 2fr 3fr 4fr 1fr;
   grid-template-rows: 1fr 1fr 2fr 2fr;
 }
+.border{
+  border: darkgray 1px solid;
+  margin-bottom: 5%;
+}
+
+.diamond{
+  width: 50px;
+   height: 50px;
+ }
+ .diamond i{
+  width: 50px;
+   height: 50px;
+ }
  }
