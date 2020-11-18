@@ -1,4 +1,7 @@
-.mark-dowm{
+.mark-dowm-sm{
+  background-color: #ec5242;
+  height: 1px;
+  margin-bottom: 10px;
   width: 2%;
   align-self: center;
 }
@@ -15,9 +18,32 @@
   border: black 1px solid;
 }
 
-.before{
-  background:linear-gradient(rgb(255, 51, 0),rgb(243, 243, 243)), url(/src/img/before1.jpg) ;
+h4{
+  font-size: 2rem;
+}
+
+.before-imgs{
+  background-image:
+  linear-gradient(rgb(255, 51, 0, .5),rgb(255, 51, 0, .5)),
+  url(https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
   background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  margin: 10px 0;
+ 
+}
+
+.before-imgs h2{
+  padding-top: 15%;
+}
+
+.before-imgs p{
+  padding-bottom: 15%;
+  font-weight: bold;
+}
+
+.brand-partner{
+  flex-wrap: wrap;
   width: 100%;
-  height: 2000px;
+  height: 200px;
 }

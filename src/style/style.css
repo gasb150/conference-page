@@ -43,8 +43,19 @@ p{
   margin-bottom: 1rem;
 }
 
+.py-3{
+  margin: .75rem 0;
+}
+
+.pt-5{
+  padding-top: 2rem;
+}
 .py-5{
   padding: 2rem 0;
+}
+
+.px-3{
+  padding:0 0.75rem;
 }
 
 .px-5{
@@ -100,6 +111,10 @@ p{
  justify-content: center;
 }
 
+.jt-around{
+  justify-content: space-around;
+}
+
 .self-center{
   align-self: center;
 }
@@ -131,6 +146,8 @@ h2{
   font-size: clamp(1.5rem, 4.5vw, 20rem)
 }
 
+
+
 h1,h2,h3,h4,h5,h6{
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -156,7 +173,7 @@ p{
   background-color: #ec5242;
   height: 1px;
   margin-bottom: 10px;
-  width: 3%;
+  width: 10%;
   align-self: center;
 }
 
