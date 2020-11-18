@@ -1,0 +1,21 @@
+.grid{
+  display: grid;
+}
+
+.table-title{
+  width: 90%;
+  grid-template-columns: 1fr 2fr 3fr 4fr 1fr;
+}
+
+.table-body{
+  width: 90%;
+ 
+}
+
+.col-2{
+ grid-template-columns: repeat(2,1fr);
+}
+
+.col-3{
+  grid-template-columns: repeat(3,1fr);
+ }
