@@ -5,6 +5,9 @@ a{
   text-decoration: none;
   color: black;
 }
+b{
+  font-weight: bold;
+}
 .flex{
   display: flex;
 }
