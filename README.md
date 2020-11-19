@@ -8,11 +8,11 @@ In this project, I make a Wine Conference page, using the given design of the we
 
 ## Live Demo
 
-[Visit Page] (https://raw.githack.com/gasb150/conference-page/feature/index.html)
+<a href="https://raw.githack.com/gasb150/conference-page/feature/index.html"> Visit Page </a>
 
 ## Video Description
 
-[Video] (https://www.loom.com/share/69e17f7e05de46618bff9ec5cd23571a)
+<a href="https://www.loom.com/share/69e17f7e05de46618bff9ec5cd23571a">Video</a>
 
 ## Built With
 
