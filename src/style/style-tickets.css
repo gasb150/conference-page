@@ -41,8 +41,13 @@ background-color: #F7F7F7;
 }
 
 .w-95{
+  margin: 0 5%;
+}
+
+.wh-95{
   width: 95%;
 }
+
  .background{
    background-image:url(../img/background-tickets.png);
    background-size: cover;
@@ -110,6 +115,9 @@ background-color: #F7F7F7;
    margin-right: 20%;
  }
  .w-95{
+  margin: 0 15%;
+}
+.wh-95{
   width: 65%;
 }
   .table-title{
