@@ -110,11 +110,11 @@ b{
 }
 
 .bg-grpt{
-  background-image: url(./src/img/grey-pattern.jpg);
+  background-image: url(../src/img/grey-pattern.jpg);
 }
 
 .bg-bkpt{
-  background-image: url(./src/img/black_pattern.png);
+  background-image: url(../src/img/black_pattern.png);
 }
 
 .tx-none{
