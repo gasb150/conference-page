@@ -80,8 +80,8 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 7%;
     margin: 0 10%;
+    margin-top: 7%;
   }
 
   .before-imgs {
