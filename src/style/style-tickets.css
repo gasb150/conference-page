@@ -44,7 +44,7 @@ background-color: #F7F7F7;
   width: 95%;
 }
  .background{
-   background-image:url(/src/img/background-tickets.png);
+   background-image:url(../img/background-tickets.png);
    background-size: cover;
   
  }
