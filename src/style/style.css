@@ -363,7 +363,7 @@ button{
   }
   .speakers{
     align-self: center;
-    padding: 0 10%;
+    margin: 0 10%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
