@@ -2,7 +2,7 @@
 
 In this project, I made a Wine conference web site with three different pages.
 
-![screenshot](../conference-page/src/img/screenshot.png)
+![screenshot](./src/img/screenshot.png)
 
 In this project, I make a Wine Conference page, using the given design of the website <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">CC Global Summit 2015</a> by <a href="https://www.behance.net/adagio07">Cindy Shin</a>. I build three pages 1. Main page (index) 2. About page and 3. Tickets page. Each page with 2 different screen sizes up to 768px for mobile and from 768px for desktop version. Including the colors, typographies, and layouts for both sizes according to Cindy's website.
 
