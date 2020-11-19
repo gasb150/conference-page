@@ -119,7 +119,7 @@ b{
   content: "";
   background: linear-gradient(rgb(109, 107, 107,1),#f8f6f600),
   url(../img/grey-pattern.jpg);
-  opacity: 0.5;
+  opacity: 0.1;
   top: 0;
   left: 0;
   bottom: 0;
@@ -212,7 +212,7 @@ h3{
   font-size: clamp(1rem, 2.5vw, 20rem)
 }
 
-h4, p{
+h4{
   font-size: clamp(0.7rem, 2vw, 20rem)
 }
 
@@ -221,8 +221,7 @@ h1,h2,h3,h4,h5,h6{
   font-weight: bold;
 }
 p{
-  font-family: 'Open Sans', sans-serif;
-  font-size: clamp(.05rem, .8vw, 1rem)
+  font-size:  0.9rem;
 }
 
 .p-lato{font-family: 'Lato', sans-serif;
@@ -251,6 +250,7 @@ p{
   margin-top: 0;
   background-color: rgba(77, 72, 72, 0.212);
 }
+
 
 .main-prg-option:hover{
   border: white 5px solid;
@@ -396,6 +396,11 @@ button{
     column-gap: 0;
     
   }
+  .main-prg-option p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(.05rem, .9vw, 1rem)
+  }
+  
 
   .main-prg-option .iconify{
     justify-self: center;

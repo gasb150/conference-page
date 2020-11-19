@@ -6,8 +6,12 @@
   height: auto; 
 }
 
+p{
+  font-size:  0.9rem;
+}
 .title-paragraph2 p{
   border: #d3d3d3 .4vh solid;
+   
 }
 
 .mark-dowm-sm{
@@ -24,7 +28,8 @@
 
 .logo-section .logo{
   box-sizing: border-box;
-  width: 90%;
+  margin-top: 5%;
+  width: 70%;
   height: auto;
   padding: 1% 10%;
   border: black 1px solid;
@@ -75,7 +80,7 @@ h4{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+    margin-top: 7%;
     padding: 0 10%;
   }
   .before-imgs{
