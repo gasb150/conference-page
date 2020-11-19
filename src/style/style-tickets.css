@@ -99,6 +99,10 @@ background-color: #F7F7F7;
    border: darkgray 1px solid;
    margin-bottom: 10%;
  }
+
+ .submit{
+   margin-bottom:5% ;
+ }
  @media only screen and (min-width: 768px){
  .bordering{
   width: auto;

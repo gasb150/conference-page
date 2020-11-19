@@ -107,6 +107,10 @@ b{
   background-color: white;
 }
 
+.bread-crumb{
+  display: none;
+} 
+
 .bg-grpt:before{
   background-image: url(../img/grey-pattern.jpg);
 }
@@ -240,6 +244,7 @@ p{
 .mark-dowm{
   background-color: #ec5242;
   height: 1px;
+  margin-top: 15px;
   margin-bottom: 10px;
   width: 10%;
   align-self: center;
@@ -333,6 +338,9 @@ button{
 .hide3{
   display: flex;
 }
+.bread-crumb{
+  display: block;
+} 
 
   .hide2{
     display: flex;
