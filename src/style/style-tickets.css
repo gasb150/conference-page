@@ -4,6 +4,9 @@ h3{
 .grid{
   display: grid;
 }
+.p{
+  font-size: clamp(.1rem, 3vw, 1rem)
+}
 
 .bg-gr{
 background: none;
@@ -98,7 +101,9 @@ background-color: #F7F7F7;
  }
  @media only screen and (min-width: 768px){
  .bordering{
-   width: 75%;
+  width: auto;
+   margin-left: 20%;
+   margin-right: 20%;
  }
  .w-95{
   width: 65%;
@@ -116,9 +121,13 @@ background-color: #F7F7F7;
 .diamond{
   width: 50px;
    height: 50px;
+   top:-25px
  }
  .diamond i{
   width: 50px;
    height: 50px;
  }
+ p{
+  font-size: clamp(.1rem, 1.5vw, 1rem)
+}
  }
