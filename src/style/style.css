@@ -394,6 +394,7 @@ button{
     display: grid;
     grid-template-rows: 3fr 1.5fr 2fr;
     column-gap: 0;
+    
   }
 
   .main-prg-option .iconify{
