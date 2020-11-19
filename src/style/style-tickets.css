@@ -73,13 +73,13 @@ p {
   width: 25px;
   height: 25px;
   align-self: center;
-  rotate: 45deg;
+  transform: rotate(45deg);
   position: relative;
   top: -12.5px;
 }
 
 .diamond i {
-  rotate: -45deg;
+  transform: rotate(-45deg);
   text-align: center;
   vertical-align: middle;
   display: table-cell;
