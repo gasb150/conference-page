@@ -145,7 +145,8 @@ b {
 }
 
 .bg-bkpt {
-  background-image: url(../img/black_pattern.png);
+  
+  background-image: url(../img/black-pattern-2.png);
 }
 
 .tx-none {
@@ -254,18 +255,18 @@ h6 {
 }
 
 .main-prg-option {
-  border: white 1px solid;
+  
   margin-top: 0;
   background-color: rgba(77, 72, 72, 0.212);
 }
 
 .main-prg-option:hover {
-  border: white 5px solid;
+  border: white 4px solid;
 }
 
 .main-prg-option .iconify {
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   color: white;
 }
 
@@ -408,7 +409,7 @@ button {
     flex-direction: column;
     margin: 0;
     display: grid;
-    grid-template-rows: 3fr 1.5fr 2fr;
+    grid-template-rows: 2fr 1.5fr 2fr;
     column-gap: 0;
   }
 
