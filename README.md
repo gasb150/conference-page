@@ -12,7 +12,7 @@ In this project, I make a Wine Conference page, using the given design of the we
 
 ## Video Description
 
-<a href="https://www.loom.com/share/69e17f7e05de46618bff9ec5cd23571a">Video</a>
+Here you can see the video description: <a href="https://www.loom.com/share/69e17f7e05de46618bff9ec5cd23571a">Video</a>
 
 ## Built With
 
