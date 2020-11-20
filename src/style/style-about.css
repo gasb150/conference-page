@@ -1,0 +1,95 @@
+.title-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title-paragraph2 {
+  height: auto;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.title-paragraph2 p {
+  border: #d3d3d3 0.4vh solid;
+}
+
+.mark-dowm-sm {
+  background-color: #ec5242;
+  height: 1px;
+  margin-bottom: 10px;
+  width: 2%;
+  align-self: center;
+}
+
+.px-7 {
+  padding: 0 5rem;
+}
+
+.logo-section .logo {
+  box-sizing: border-box;
+  margin-top: 5%;
+  width: 70%;
+  height: auto;
+  padding: 1% 10%;
+  border: black 1px solid;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+.before {
+  width: 90%;
+}
+
+.before-imgs {
+  background-image:
+    linear-gradient(rgb(255, 51, 0, 0.5), rgb(255, 51, 0, 0.5)),
+    url(https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5% 0;
+  margin: 5% 0;
+}
+
+.before-imgs h2 {
+  padding-top: 15%;
+}
+
+.before-imgs p {
+  padding-bottom: 15%;
+  font-weight: bold;
+}
+
+.brand-partner {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 200px;
+}
+
+.contact {
+  margin-top: 7rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .before {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 10%;
+    margin-top: 7%;
+  }
+
+  .before-imgs {
+    width: 50%;
+    margin: 0 1%;
+  }
+
+  .about-container {
+    padding: 0 5%;
+  }
+}

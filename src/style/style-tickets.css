@@ -1,0 +1,155 @@
+h1 {
+  padding-top: 6%;
+  font-size: 2.5vw;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+}
+
+p,
+h4 {
+  font-size: 1.5vw;
+}
+
+.bg-gr {
+  background: none;
+  background-color: #f7f7f7;
+}
+
+.table-title {
+  margin: 5px 5px;
+  grid-template-rows: 1fr 2fr 3fr 4fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+}
+
+.table-title > div {
+  border: 1px solid rgb(233, 225, 225);
+}
+
+.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row-2 {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.row-3 {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.w-95 {
+  margin: 0 5%;
+}
+
+.wh-95 {
+  width: 95%;
+}
+
+.background {
+  background-image: url(../img/background-tickets.png);
+  background-size: cover;
+}
+
+.bordering {
+  width: auto;
+  border: black 1px solid;
+  border-radius: 15px;
+  margin: 2% 0 7% 0;
+}
+
+.bordering h4 {
+  margin: 20px 15px;
+}
+
+.tiquets {
+  padding: 0 0 10% 0;
+}
+
+.diamond {
+  width: 25px;
+  height: 25px;
+  align-self: center;
+  transform: rotate(45deg);
+  position: relative;
+  top: -12.5px;
+}
+
+.diamond i {
+  transform: rotate(-45deg);
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  width: 25px;
+  height: 25px;
+}
+
+.day {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  height: 100px;
+}
+
+.border {
+  border: darkgray 1px solid;
+  margin-bottom: 10%;
+}
+
+.submit {
+  margin-bottom: 5%;
+  width: 25%;
+  height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .bordering {
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .w-95 {
+    margin: 0 15%;
+  }
+
+  .wh-95 {
+    width: 65%;
+  }
+
+  .table-title {
+    margin: 5px 5px;
+    grid-template-columns: 1fr 2fr 3fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 2fr;
+  }
+
+  .border {
+    border: darkgray 1px solid;
+    margin-bottom: 5%;
+  }
+
+  .diamond {
+    width: 50px;
+    height: 50px;
+    top: -25px;
+  }
+
+  .diamond i {
+    width: 50px;
+    height: 50px;
+  }
+}
