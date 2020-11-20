@@ -8,7 +8,8 @@ h1 {
   display: grid;
 }
 
-p {
+p,
+h4 {
   font-size: 1.5vw;
 }
 
@@ -64,7 +65,11 @@ p {
   width: auto;
   border: black 1px solid;
   border-radius: 15px;
-  margin: 30px 0;
+  margin: 2% 0 7% 0;
+}
+
+.bordering h4 {
+  margin: 20px 15px;
 }
 
 .tiquets {
