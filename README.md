@@ -1,6 +1,6 @@
 # The Newsweek Responsive
 
-In this project, I made a Wine conference web site with three different pages.
+In this project, I made a Wine conference website with three different pages.
 
 ![screenshot](./src/img/screenshot.png)
 
